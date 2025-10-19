@@ -1,0 +1,27 @@
+sensor_types:
+  - type: CO2Analyzer
+    model: CO2-100
+    sensitivity: 0.1
+    range: [0, 5000]  # CO2 levels in ppm
+    update_interval: 1  # seconds
+
+  - type: GPSReceiver
+    model: GPS-200
+    update_interval: 1  # seconds
+
+  - type: ThermalScanner
+    model: TS-300
+    sensitivity: 0.5  # temperature sensitivity in degrees Celsius
+    range: [20, 100]  # temperature range in degrees Celsius
+    update_interval: 1  # seconds
+
+communication:
+  emergency_channel:
+    enabled: true
+    frequency: 433.0  # MHz
+    range: 5000  # meters
+
+  telemetry_link:
+    enabled: true
+    frequency: 2.4  # GHz
+    range: 1000  # meters

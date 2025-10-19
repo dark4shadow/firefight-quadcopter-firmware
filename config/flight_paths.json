@@ -1,0 +1,49 @@
+{
+  "flight_paths": [
+    {
+      "name": "Patrol Route 1",
+      "waypoints": [
+        {
+          "latitude": 34.052235,
+          "longitude": -118.243683,
+          "altitude": 100
+        },
+        {
+          "latitude": 34.052500,
+          "longitude": -118.244000,
+          "altitude": 100
+        },
+        {
+          "latitude": 34.052750,
+          "longitude": -118.243500,
+          "altitude": 100
+        }
+      ],
+      "navigation_parameters": {
+        "speed": 5.0,
+        "hover_height": 10.0,
+        "return_to_base": true
+      }
+    },
+    {
+      "name": "Emergency Response Route",
+      "waypoints": [
+        {
+          "latitude": 34.052235,
+          "longitude": -118.243683,
+          "altitude": 100
+        },
+        {
+          "latitude": 34.053000,
+          "longitude": -118.245000,
+          "altitude": 100
+        }
+      ],
+      "navigation_parameters": {
+        "speed": 7.0,
+        "hover_height": 15.0,
+        "return_to_base": true
+      }
+    }
+  ]
+}

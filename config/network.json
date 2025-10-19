@@ -1,0 +1,17 @@
+{
+  "wifi": {
+    "ssid": "YourNetworkSSID",
+    "password": "YourNetworkPassword"
+  },
+  "server": {
+    "endpoint": "http://your-server-endpoint/api",
+    "timeout": 5000
+  },
+  "emergency_services": {
+    "contact_number": "112",
+    "notification_method": "sms"
+  },
+  "gps": {
+    "update_interval": 1000
+  }
+}
